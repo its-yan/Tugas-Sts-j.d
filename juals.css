@@ -379,7 +379,17 @@ img {
   width: 20vw;
   margin-left: 2vw;
 }
-
+.hasil2 {
+  display: flex;
+  gap: 10px;
+  width: 30vw;
+  margin-left: 2vw;
+  margin-top: -5vw;
+}
+.hasil3 {
+  margin-left: 10vw;
+  margin-top: -5vw;
+}
 .hasil12{
   background-color: white;
   width: 70%;
@@ -486,106 +496,15 @@ button {
 }
 
 /* Footer */
-.footer {
-  position: relative;
-  width: 50%;
-  min-height: 10px;
-  padding: 20px 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  font-family: 'Play', sans-serif;
-  text-align: center;
-  margin-top: 25vh;
-  margin-left: 30vw;
-}
-
-.card {
-  width: fit-content;
-  height: fit-content;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-  margin-left: -10vw;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
-}
-
-.socialContainer {
-  width: 40px;
-  height: 40px;
-  background-color: rgb(44, 44, 44);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  border-radius: 100%;
-  transition-duration: .3s;
-  margin-bottom: 4vh;
-  margin-top: -18vh;
-  scale: 1.5;
-  border-color: #ffffff;
-}
-
-/* instagram*/
-.c1:hover {
-  background-color: #d62976;
-  transition-duration: .3s;
-}
-
-/* twitter*/
-.c2:hover {
-  background-color: #00acee;
-  transition-duration: .3s;
-}
-
-/* linkdin*/
-.c3:hover {
-  background-color: #0072b1;
-  transition-duration: .3s;
-}
-
-/* Whatsapp*/
-.c4:hover {
-  background-color: #128C7E;
-  transition-duration: .3s;
-}
-
-.socialContainer:active {
-  transform: scale(0.9);
-  transition-duration: .3s;
-}
-
-.socialSvg {
-  width: 17px;
-}
-
-.socialSvg path {
-  fill: rgb(255, 255, 255);
-}
-
-.socialContainer:hover .socialSvg {
-  animation: slide-in-top 0.3s both;
-}
-
-@keyframes slide-in-top {
-  0% {
-    transform: translate(0, 0px);
-  }
-
-  50% {
-    transform: translate(0, 30px);
-  }
-
-  100% {
-    transform: translate(0, -0px);
-  }
+.medsos {
+  color: white;
+  animation-name: fade ;
 }
 .Copyright {
   width: 100%;
   padding: 2px;
   display: flex;
+  margin-top: 5vw;
   align-items: center;
   flex-direction: column;
   background: #0059ff;
@@ -722,7 +641,21 @@ body {
     width: 50vw;
     height: 25vw;
   }
-
+  .hasil1 {
+    display: block;
+    gap: 100px;
+    width: 30vw;
+  }
+  .hasil2 {
+    display: block;
+    gap: 100px;
+    width: 30vw;
+    margin-top: -5vw;
+  }
+  .hasil3{
+    margin-top: 2vw;
+    margin-left:1vw;
+  }
   .column {
     float: left;
     width: 105%;
@@ -803,31 +736,18 @@ body {
     flex-direction: column;
   }
 
-  .footer {
-    width: 100%;
-    margin-left: 0;
-  }
-
-  .card {
-    margin-left: 50vw;
-  }
-
-  .card svg {
-    margin-left: 0;
-    flex-direction: column;
-    gap: 20px;
+  .Copyright {
+    width: 100vw;
+    padding: 10px;
     display: flex;
+    margin-top: 5vw;
+    margin-left: -10vw;
+    align-items: center;
+    flex-direction: column;
+    font-size: 5px;
+    background: #0059ff;
+    font-family: 'Play', sans-serif;
   }
-
-  .socialContainer {
-    scale: 1;
-    margin-top: -10vh;
-  }
-
-  .socialSvg {
-    width: 14px;
-  }
-
   body {
     background-image: url(img/BG3.png);
     background-size: cover;
